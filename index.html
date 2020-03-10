@@ -1,0 +1,182 @@
+<!--
+  ~ Copyright (c) 2020. Adam Arthur Faizal.
+  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web Portfolio | Adam Arthur Faizal</title>
+    <!--  Bootstrap and CSS  -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="sass/style.css">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+<!--    <link rel="manifest" href="img/favicon/site.webmanifest">-->
+</head>
+<body>
+    <!--  Navbar  -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand font-weight-bold smooth-scroll" href="#home">Adam</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link smooth-scroll" href="#home">Home</a>
+                <a class="nav-item nav-link smooth-scroll" href="#about">About</a>
+                <a class="nav-item nav-link smooth-scroll" href="#portofolio">Portfolio</a>
+                <a class="nav-item nav-link smooth-scroll" href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Akhir dari Navbar-->
+
+    <header>
+        <!-- Jumbotron -->
+        <div class="jumbotron text-center" id="home">
+            <img src="img/thumbs/naruto2.jpg" alt="Adam" class="rounded-circle">
+            <h1>Adam Arthur Faizal</h1>
+            <p>Web Developer | Android Developer | Cyber Security</p>
+        </div>
+        <!-- Akhir dari Jumbotron -->
+    </header>
+
+    <main>
+        <!-- About -->
+        <section class="about" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2 class="text-center"><b>About</b></h2>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 offset-sm-2">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque dignissimos, excepturi fugiat ipsam ipsum iure magnam magni maxime mollitia nisi nulla pariatur quae quibusdam quis reprehenderit, sapiente, soluta veritatis voluptatibus.
+                        </p>
+                    </div>
+                    <div class="col-sm-4">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi asperiores corporis debitis, delectus dolorum iste labore maxime optio veritatis? Amet autem consequatur deserunt dignissimos ex laboriosam laudantium perferendis quibusdam veritatis.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Akhir dari About-->
+
+        <!-- Portofolio -->
+        <section class="portofolio" id="portofolio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <h2><b>Portfolio</b></h2>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <div class="row container-fluid">
+                <div class="col-md-4">
+                    <a href="">
+                        <img src="img/clement-h-95YRwf6CNw8-unsplash.jpg" alt="Naruto" class="img-thumbnail">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="">
+                        <img src="img/ilya-pavlov-OqtafYT5kTw-unsplash.jpg" alt="Naruto" class="img-thumbnail">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="">
+                        <img src="img/jace-afsoon-K4XHqPZq66c-unsplash.jpg" alt="Naruto" class="img-thumbnail">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="">
+                        <img src="img/kristopher-roller-zepnJQycr4U-unsplash.jpg" alt="Naruto" class="img-thumbnail">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="">
+                        <img src="img/lycs-architecture-U2BI3GMnSSE-unsplash.jpg" alt="Naruto" class="img-thumbnail">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="">
+                        <img src="img/alesia-kazantceva-XLm6-fPwK5Q-unsplash.jpg" alt="Naruto" class="img-thumbnail">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- Akhir dari Portofolio-->
+
+        <!-- Contact -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <h2><b>Contact</b></h2>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-8 offset-sm-2">
+                        <form>
+                            <div class="form-group">
+                                <label for="nama">Nama</label>
+                                <input type="text" id="nama" class="form-control" placeholder="Masukkan nama kamu">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" class="form-control" placeholder="Masukkan email kamu">
+                            </div>
+                            <div class="form-group">
+                                <label for="telepon">No Handphone</label>
+                                <input type="tel" id="telepon" class="form-control" placeholder="Masukkan no HP">
+                            </div>
+                            <div class="form-group">
+                                <select class="custom-select">
+                                    <option disabled selected>-- Choose your category --</option>
+                                    <option>Web Design</option>
+                                    <option>Web Programming</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="pesan">Message</label>
+                                <textarea id="pesan" class="form-control" rows="10" placeholder="Masukkan pesan"></textarea>
+                            </div>
+                            <button class="btn btn-success">Kirim pesan</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Akhir dari contact-->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container-fluid text-center bg-info">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h5>Copyright &copy; 2020. <a href="http://github.com/AdamArthurFaizal">Adam Arthur Faizal</a>. All Rights Reserved</h5>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Akhir dari footer-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then bootstrap JS -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js" ></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
