@@ -1,0 +1,90 @@
+/*!
+ * / Copyright (c) 2020. Adam Arthur Faizal.
+ * / */
+html {
+  position: relative;
+}
+
+nav.navbar {
+  opacity: 80%;
+  min-height: 60px;
+  padding: 0 25px;
+}
+nav.navbar a.navbar-brand {
+  font-size: 30px;
+}
+nav.navbar a.navbar-brand a {
+  font-family: "Alex Brush", Arial, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.jumbotron {
+  background-color: lightblue;
+  padding-top: 100px;
+  margin: 0;
+}
+.jumbotron img {
+  border: 5px solid #bbbbbb;
+}
+.jumbotron h1 {
+  font-weight: bold;
+  font-family: "Alex Brush", Arial, Verdana, sans-serif;
+}
+.jumbotron p {
+  font-family: "Indie Flower", cursive;
+}
+
+section.about {
+  background-image: url("../img/symphony.png");
+  padding: 20px;
+}
+section.about .container .row .col-sm-12 hr {
+  width: 250px;
+  border-top: 5px solid #bbbbbb;
+}
+
+section.portofolio {
+  background-color: lightblue;
+  padding: 20px;
+}
+section.portofolio .container .row .col-sm-12 hr {
+  width: 250px;
+  border-top: 5px solid #bbbbbb;
+}
+section.portofolio .row {
+  margin: 0;
+}
+section.portofolio .row .col-md-4 {
+  margin-bottom: 10px;
+}
+
+section.contact {
+  background-image: url("../img/symphony.png");
+  padding: 20px;
+}
+section.contact .container .row .col-sm-12 hr {
+  width: 250px;
+  border-top: 5px solid #bbbbbb;
+}
+
+footer {
+  width: 100%;
+  box-sizing: border-box;
+}
+footer h5 {
+  color: white;
+  margin: 0;
+  font-size: 20px;
+  min-height: 65px;
+  line-height: 65px;
+  font-family: "Alex Brush", Arial, Verdana, sans-serif section;
+  font-weight: bold;
+}
+footer h5 a {
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

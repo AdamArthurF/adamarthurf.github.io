@@ -10,29 +10,36 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Web Portfolio | Adam Arthur Faizal</title>
-    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="SASS/style.css">
+    <!--  Bootstrap and CSS  -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="sass/style.css">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+<!--    <link rel="manifest" href="img/favicon/site.webmanifest">-->
 </head>
 <body>
     <!--  Navbar  -->
-    <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand">
-        <div class="container-fluid">
-            <a href="#" class="navbar-brand">
-                Adam
-            </a>
-            <ul class="navbar-nav">
-                <li class="nav-item"><a href="#" class="nav-link">A</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">B</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">C</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">D</a></li>
-            </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand font-weight-bold smooth-scroll" href="#home">Adam</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link smooth-scroll" href="#home">Home</a>
+                <a class="nav-item nav-link smooth-scroll" href="#about">About</a>
+                <a class="nav-item nav-link smooth-scroll" href="#portofolio">Portfolio</a>
+                <a class="nav-item nav-link smooth-scroll" href="#contact">Contact</a>
+            </div>
         </div>
     </nav>
     <!-- Akhir dari Navbar-->
 
     <header>
         <!-- Jumbotron -->
-        <div class="jumbotron text-center">
+        <div class="jumbotron text-center" id="home">
             <img src="img/thumbs/naruto2.jpg" alt="Adam" class="rounded-circle">
             <h1>Adam Arthur Faizal</h1>
             <p>Web Developer | Android Developer | Cyber Security</p>
@@ -134,8 +141,8 @@
                                 <input type="tel" id="telepon" class="form-control" placeholder="Masukkan no HP">
                             </div>
                             <div class="form-group">
-                                <select class="form-control">
-                                    <option>-- Choose your category --</option>
+                                <select class="custom-select">
+                                    <option disabled selected>-- Choose your category --</option>
                                     <option>Web Design</option>
                                     <option>Web Programming</option>
                                 </select>
@@ -155,7 +162,7 @@
 
     <!-- Footer -->
     <footer>
-        <div class="container-fluid text-center">
+        <div class="container-fluid text-center bg-info">
             <div class="row">
                 <div class="col-sm-12">
                     <h5>Copyright &copy; 2020. <a href="http://github.com/AdamArthurFaizal">Adam Arthur Faizal</a>. All Rights Reserved</h5>
@@ -167,6 +174,9 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then bootstrap JS -->
-
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js" ></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
