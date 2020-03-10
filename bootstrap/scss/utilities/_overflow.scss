@@ -1,9 +1,0 @@
-/*!
- * Copyright (c) 2020. Adam Arthur Faizal.
- */
-
-// stylelint-disable declaration-no-important
-
-@each $value in $overflows {
-  .overflow-#{$value} { overflow: $value !important; }
-}
