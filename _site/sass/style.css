@@ -72,6 +72,21 @@ section.contact .container .row .col-sm-12 hr {
   width: 250px;
   border-top: 5px solid #bbbbbb;
 }
+section.contact .container .row .alert {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+section.contact .container .row .alert .media {
+  margin-bottom: 20px;
+}
+section.contact .container .row .alert .media .media-body h5 {
+  margin: 0;
+}
+section.contact .container .row .alert .media .media-body a {
+  text-decoration: none;
+  color: darkblue;
+}
 
 footer {
   width: 100%;
@@ -88,6 +103,17 @@ footer h5 {
 }
 footer h5 a {
   color: white;
+}
+
+@media screen and (min-width: 560px) and (max-width: 764px) {
+  footer h5 {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 559px) {
+  footer h5 {
+    font-size: 14px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
