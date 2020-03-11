@@ -1,10 +1,6 @@
 /*!
  * / Copyright (c) 2020. Adam Arthur Faizal.
  * / */
-html {
-  position: relative;
-}
-
 nav.navbar {
   opacity: 80%;
   min-height: 60px;
@@ -44,6 +40,13 @@ section.about {
 section.about .container .row .col-sm-12 hr {
   width: 250px;
   border-top: 5px solid #bbbbbb;
+}
+section.about .container .row .col-sm-6 p {
+  text-align: justify;
+  font-family: "Indie Flower", cursive;
+}
+section.about .container .row .my_Pic img {
+  width: 75%;
 }
 
 section.portofolio {
