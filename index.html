@@ -25,10 +25,10 @@
     <!--  Navbar  -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <a class="navbar-brand font-weight-bold smooth-scroll" href="#home">Adam</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="collapse navbar-collapse">
             <div class="navbar-nav">
                 <a class="nav-item nav-link smooth-scroll" href="#home">Home</a>
                 <a class="nav-item nav-link smooth-scroll" href="#about">About</a>
@@ -69,7 +69,7 @@
                     </div>
                     <div class="offset-sm-1 col-sm-5">
                         <div class="my_Pic img-fluid">
-                            <img class="img-thumbnail" src="img/about/foto_sma.jpg" alt="Foto SMA">
+                            <img class="img-thumbnail" id="my_Pic" src="img/about/foto_sma.jpg" alt="Foto SMA">
                         </div>
                     </div>
                 </div>
@@ -89,34 +89,136 @@
             </div>
             <div class="row container-fluid">
                 <div class="col-md-4">
-                    <a href="">
+                    <a href="#" class="my-gambar">
                         <img src="img/clement-h-95YRwf6CNw8-unsplash.jpg" alt="Naruto" class="img-thumbnail">
                     </a>
+                    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="img/clement-h-95YRwf6CNw8-unsplash.jpg" alt="gambar" class="img-thumbnail">
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-4">
-                    <a href="">
+                    <a href="#" class="my-gambar">
                         <img src="img/ilya-pavlov-OqtafYT5kTw-unsplash.jpg" alt="Naruto" class="img-thumbnail">
                     </a>
+                    <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="img/ilya-pavlov-OqtafYT5kTw-unsplash.jpg" alt="gambar" class="img-thumbnail">
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-4">
-                    <a href="">
+                    <a href="#" class="my-gambar">
                         <img src="img/jace-afsoon-K4XHqPZq66c-unsplash.jpg" alt="Naruto" class="img-thumbnail">
                     </a>
+                    <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="img/jace-afsoon-K4XHqPZq66c-unsplash.jpg" alt="gambar" class="img-thumbnail">
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-4">
-                    <a href="">
+                    <a href="#" class="my-gambar">
                         <img src="img/kristopher-roller-zepnJQycr4U-unsplash.jpg" alt="Naruto" class="img-thumbnail">
                     </a>
+                    <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="img/kristopher-roller-zepnJQycr4U-unsplash.jpg" alt="gambar" class="img-thumbnail">
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-4">
-                    <a href="">
+                    <a href="#" class="my-gambar">
                         <img src="img/lycs-architecture-U2BI3GMnSSE-unsplash.jpg" alt="Naruto" class="img-thumbnail">
                     </a>
+                    <div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="img/lycs-architecture-U2BI3GMnSSE-unsplash.jpg" alt="gambar" class="img-thumbnail">
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-4">
-                    <a href="">
+                    <a href="#" class="my-gambar">
                         <img src="img/alesia-kazantceva-XLm6-fPwK5Q-unsplash.jpg" alt="Naruto" class="img-thumbnail">
                     </a>
+                    <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="img/alesia-kazantceva-XLm6-fPwK5Q-unsplash.jpg" alt="gambar" class="img-thumbnail">
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -144,7 +246,7 @@
                             <i class="fab fa-github fa-4x mr-3"></i>
                             <div class="media-body">
                                 <h5 class=" mt-2 font-weight-bold">GitHub</h5>
-                                <h6 class="mt-0"><a href="https://github.com/AdamArthurFaizal" class="btn-link" target="_blank">AdamArthurFaizal</a></h6>
+                                <h6 class="mt-0"><a href="https://github.com/AdamArthurFaizal" class="btn-link my-medsos" title="Github" target="_blank">AdamArthurFaizal</a></h6>
                             </div>
                         </div>
                     </div>
@@ -153,22 +255,22 @@
                             <i class="fab fa-instagram fa-4x mr-3"></i>
                             <div class="media-body">
                                 <h5 class="mt-2 font-weight-bold">Instagram</h5>
-                                <h6 class="mt-0"><a href="https://instagram.com/adam.arthur_f" class="btn-link" target="_blank">@adam.arthur_f</a></h6>
+                                <h6 class="mt-0"><a href="https://instagram.com/adam.arthur_f" class="btn-link my-medsos" title="Instagram" target="_blank">@adam.arthur_f</a></h6>
                             </div>
                         </div>
                         <div class="media">
                             <i class="fab fa-facebook fa-4x mr-3"></i>
                             <div class="media-body">
                                 <h5 class="mt-2 font-weight-bold">Facebook</h5>
-                                <h6 class="mt-0"><a href="https://facebook.com/arthur.faiz777" class="btn-link" target="_blank">Adam Arthur Faizal</a></h6>
+                                <h6 class="mt-0"><a href="https://facebook.com/arthur.faiz777" class="btn-link my-medsos" title="Facebook" target="_blank">Adam Arthur Faizal</a></h6>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <!-- Akhir dari contact-->
     </main>
-    <!-- Akhir dari contact-->
 
     <!-- Footer -->
     <footer>
