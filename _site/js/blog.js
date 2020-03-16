@@ -29,4 +29,9 @@ $(document).ready(function () {
             }, 250);
         }, 750 * element);
     });
+
+
+    $('.navbar-toggler').click(function () {
+        $('.collapse').collapse('toggle');
+    });
 });
