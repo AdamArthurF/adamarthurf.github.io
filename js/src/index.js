@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2020. Adam Arthur Faizal.
+ */
+
 import Alert from './alert'
 import Button from './button'
 import Carousel from './carousel'
