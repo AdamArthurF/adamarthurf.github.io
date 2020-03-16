@@ -7,7 +7,7 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Web Portfolio | Adam Arthur Faizal</title>
     <!--  Bootstrap and CSS  -->
@@ -24,16 +24,19 @@
 <body>
     <!--  Navbar  -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand font-weight-bold smooth-scroll" href="#home">Adam</a>
-        <button class="navbar-toggler" type="button" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link smooth-scroll" href="#home">Home</a>
-                <a class="nav-item nav-link smooth-scroll" href="#about">About</a>
-                <a class="nav-item nav-link smooth-scroll" href="#portofolio">Portfolio</a>
-                <a class="nav-item nav-link smooth-scroll" href="#contact">Contact</a>
+        <div class="container-fluid">
+            <a class="navbar-brand font-weight-bold smooth-scroll" href="/">Adam</a>
+            <button class="navbar-toggler" type="button" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link smooth-scroll" href="#home">Home</a>
+                    <a class="nav-item nav-link smooth-scroll" href="#about">About</a>
+                    <a class="nav-item nav-link smooth-scroll" href="#portofolio">Portfolio</a>
+                    <a class="nav-item nav-link smooth-scroll" href="#contact">Contact</a>
+                    <a class="nav-item nav-link" href="Blog"><button class="btn btn-secondary">My Blog</button></a>
+                </div>
             </div>
         </div>
     </nav>
@@ -44,7 +47,11 @@
         <div class="jumbotron text-center" id="home">
             <img src="img/thumbs/naruto2.jpg" alt="Adam" class="rounded-circle">
             <h1>Adam Arthur Faizal</h1>
-            <p>Web Developer | Android Developer | Cyber Security</p>
+            <p>
+                <button class="btn btn-secondary">Web Developer</button> |
+                <button class="btn btn-secondary">Mobile-Apps Developer</button> |
+                <button class="btn btn-secondary">Cyber Security</button>
+            </p>
         </div>
         <!-- Akhir dari Jumbotron -->
     </header>
@@ -59,7 +66,7 @@
                         <hr>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row" id="about-content">
                     <div class="col-sm-6">
                         <p>
                             Hai namaku Adam, kalian bisa memanggilku Arthur. Saat ini aku sedang berkuliah di Universitas
@@ -82,7 +89,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 text-center">
-                        <h2><b>Portfolio</b></h2>
+                        <h2 class="font-weight-bold">Portfolio</h2>
                         <hr>
                     </div>
                 </div>
@@ -90,7 +97,7 @@
             <div class="row container-fluid">
                 <div class="col-md-4">
                     <a href="#" class="my-gambar">
-                        <img src="img/clement-h-95YRwf6CNw8-unsplash.jpg" alt="Naruto" class="img-thumbnail">
+                        <img src="img/loading/DSC0021.JPG" alt="Naruto" class="img-thumbnail">
                     </a>
                     <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-lg" role="document">
@@ -101,7 +108,7 @@
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    <img src="img/clement-h-95YRwf6CNw8-unsplash.jpg" alt="gambar" class="img-thumbnail">
+                                    <img src="img/loading/DSC0021.JPG" alt="gambar" class="img-thumbnail">
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -112,7 +119,7 @@
                 </div>
                 <div class="col-md-4">
                     <a href="#" class="my-gambar">
-                        <img src="img/ilya-pavlov-OqtafYT5kTw-unsplash.jpg" alt="Naruto" class="img-thumbnail">
+                        <img src="img/loading/DSC0061.JPG" alt="Naruto" class="img-thumbnail">
                     </a>
                     <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-lg" role="document">
@@ -123,7 +130,7 @@
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    <img src="img/ilya-pavlov-OqtafYT5kTw-unsplash.jpg" alt="gambar" class="img-thumbnail">
+                                    <img src="img/loading/DSC0061.JPG" alt="gambar" class="img-thumbnail">
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -134,7 +141,7 @@
                 </div>
                 <div class="col-md-4">
                     <a href="#" class="my-gambar">
-                        <img src="img/jace-afsoon-K4XHqPZq66c-unsplash.jpg" alt="Naruto" class="img-thumbnail">
+                        <img src="img/loading/IMG_2979.JPG" alt="Naruto" class="img-thumbnail">
                     </a>
                     <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-lg" role="document">
@@ -145,7 +152,7 @@
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    <img src="img/jace-afsoon-K4XHqPZq66c-unsplash.jpg" alt="gambar" class="img-thumbnail">
+                                    <img src="img/loading/IMG_2979.JPG" alt="gambar" class="img-thumbnail">
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -156,7 +163,7 @@
                 </div>
                 <div class="col-md-4">
                     <a href="#" class="my-gambar">
-                        <img src="img/kristopher-roller-zepnJQycr4U-unsplash.jpg" alt="Naruto" class="img-thumbnail">
+                        <img src="img/loading/IMG_8154.JPG" alt="Naruto" class="img-thumbnail">
                     </a>
                     <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-lg" role="document">
@@ -167,7 +174,7 @@
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    <img src="img/kristopher-roller-zepnJQycr4U-unsplash.jpg" alt="gambar" class="img-thumbnail">
+                                    <img src="img/loading/IMG_8154.JPG" alt="gambar" class="img-thumbnail">
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -178,7 +185,7 @@
                 </div>
                 <div class="col-md-4">
                     <a href="#" class="my-gambar">
-                        <img src="img/lycs-architecture-U2BI3GMnSSE-unsplash.jpg" alt="Naruto" class="img-thumbnail">
+                        <img src="img/loading/IMG_9483.JPG" alt="Naruto" class="img-thumbnail">
                     </a>
                     <div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-lg" role="document">
@@ -189,7 +196,7 @@
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    <img src="img/lycs-architecture-U2BI3GMnSSE-unsplash.jpg" alt="gambar" class="img-thumbnail">
+                                    <img src="img/loading/IMG_9483.JPG" alt="gambar" class="img-thumbnail">
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -200,7 +207,7 @@
                 </div>
                 <div class="col-md-4">
                     <a href="#" class="my-gambar">
-                        <img src="img/alesia-kazantceva-XLm6-fPwK5Q-unsplash.jpg" alt="Naruto" class="img-thumbnail">
+                        <img src="img/loading/IMG_9618.JPG" alt="Naruto" class="img-thumbnail">
                     </a>
                     <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-lg" role="document">
@@ -211,7 +218,7 @@
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    <img src="img/alesia-kazantceva-XLm6-fPwK5Q-unsplash.jpg" alt="gambar" class="img-thumbnail">
+                                    <img src="img/loading/IMG_9618.JPG" alt="gambar" class="img-thumbnail">
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -234,7 +241,7 @@
                     </div>
                 </div>
                 <div class="row d-sm-flex justify-content-center">
-                    <div class="alert">
+                    <div class="alert" id="alert-kiri">
                         <div class="media">
                             <i class="fab fa-whatsapp fa-4x mr-3"></i>
                             <div class="media-body">
@@ -250,7 +257,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="alert">
+                    <div class="alert" id="alert-kanan">
                         <div class="media">
                             <i class="fab fa-instagram fa-4x mr-3"></i>
                             <div class="media-body">
@@ -274,10 +281,10 @@
 
     <!-- Footer -->
     <footer>
-        <div class="container-fluid text-center bg-info">
+        <div class="container-fluid text-center bg-dark">
             <div class="row">
                 <div class="col-lg-12">
-                    <h5 class="text-centert">Copyright &copy; 2020. <a href="http://github.com/AdamArthurFaizal">Adam Arthur Faizal</a>. All Rights Reserved</h5>
+                    <h5 class="text-center">Copyright &copy; 2020. <a href="http://github.com/AdamArthurFaizal">Adam Arthur Faizal</a>. All Rights Reserved</h5>
                 </div>
             </div>
         </div>

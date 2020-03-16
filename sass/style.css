@@ -28,7 +28,7 @@ header .jumbotron img {
   margin-bottom: 50px;
   opacity: 0;
   transform: translate(0, -50px);
-  transition: 2s;
+  transition: 0.8s;
 }
 header .jumbotron img.show-element {
   opacity: 1;
@@ -41,7 +41,7 @@ header .jumbotron h1 {
   text-shadow: 5px 5px 15px black;
   opacity: 0;
   transform: translate(0, -50px);
-  transition: 2s;
+  transition: 0.8s;
 }
 header .jumbotron h1.show-element {
   opacity: 1;
@@ -52,7 +52,7 @@ header .jumbotron p {
   margin-bottom: 30px;
   opacity: 0;
   transform: translate(0, -50px);
-  transition: 2s;
+  transition: 0.8s;
 }
 header .jumbotron p button {
   opacity: 80%;
