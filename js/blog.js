@@ -5,6 +5,9 @@ $(document).ready(function () {
     $(window).scroll(function () {
         const windowScroll = $(this).scrollTop();
         const home = $('#home').children();
+        const jumbotronHeight = $('.jumbotron').outerHeight(true);
+        const mainContentOffset = $('#main-content').offset().top;
+        const mainContentChild = $('#main-content').children();
         $(home.first()).css({
             transform: 'translate(0px, ' + windowScroll/3.90 + '%)'
         });
@@ -16,6 +19,14 @@ $(document).ready(function () {
         $(home.next().last()).css({
             transform: 'translate(0px, ' + windowScroll/1.10 + '%)'
         });
+
+        if (windowScroll >= mainContentOffset - jumbotronHeight / 3) {
+            mainContentChild.each(function (element) {
+                setTimeout(function () {
+                    mainContentChild.eq(element).addClass('show-element');
+                }, 1000 * element);
+            });
+        }
     });
 
     const jumbotronChild = $('.jumbotron').children();
@@ -29,7 +40,6 @@ $(document).ready(function () {
             }, 250);
         }, 750 * element);
     });
-
 
     $('.navbar-toggler').click(function () {
         $('.collapse').collapse('toggle');

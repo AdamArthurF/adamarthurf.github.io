@@ -1,6 +1,6 @@
-/*!
- * / Copyright (c) 2020. Adam Arthur Faizal.
- * / */
+/*
+ * Copyright (c) 2020. Adam Arthur Faizal.
+ */
 nav.navbar {
   opacity: 80%;
   padding: 0 25px;
@@ -164,6 +164,9 @@ main section.contact .container .row .alert.show-element#alert-kiri, main sectio
 }
 main section.judul#judul {
   padding: 20px 20px 0 20px;
+  opacity: 0;
+  transform: translate(0, -50px);
+  transition: 2s;
 }
 main section.judul#judul h1 {
   margin: 0;
@@ -179,8 +182,19 @@ main section.judul#judul h6 {
   font-size: 15px;
   color: #7b7b7b;
 }
+main section.judul#judul.show-element {
+  opacity: 1;
+  transform: translate(0, 0);
+}
 main section.blog-content#blog-content {
   padding: 20px 40px;
+  opacity: 0;
+  transform: translate(0, -50px);
+  transition: 2s;
+}
+main section.blog-content#blog-content.show-element {
+  opacity: 1;
+  transform: translate(0, 0);
 }
 
 footer {
