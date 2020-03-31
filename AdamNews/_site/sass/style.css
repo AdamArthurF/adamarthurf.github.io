@@ -1,0 +1,99 @@
+/*
+ * Copyright (c) 2020. Adam Arthur Faizal.
+ */
+@font-face {
+  font-family: "Cuprum";
+  src: url("../font/Cuprum/Cuprum-Regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Indie Flower";
+  src: url("../font/IndieFlower/web_fonts/indieflower_regular_macroman/IndieFlower-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "Indie Flower", cursive;
+}
+body nav.navbar {
+  opacity: 75%;
+  font-family: "Cuprum", cursive;
+}
+body .container header .jumbotron {
+  background-color: white;
+  margin: 0;
+  padding: 100px 40px 20px 40px;
+}
+body .container header .jumbotron h1 {
+  margin: 0;
+}
+body .container header .jumbotron h1 .AdamNews {
+  color: #91eee0;
+}
+body .container header .jumbotron h1 .com {
+  color: #0a7b80;
+}
+body .container main#content {
+  font-family: "Cuprum", sans-serif;
+}
+body .container main#content .media {
+  margin: 40px 0;
+  border-bottom: 1px solid #aaaaaa;
+}
+body .container main#content .media .media-body {
+  position: relative;
+  min-height: 200px;
+}
+body .container main#content .media .media-body h2 a {
+  text-decoration: none;
+  color: black;
+}
+body .container main#content .media .media-body span {
+  margin-right: 50px;
+}
+body .container main#content .media .media-body button {
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+}
+body .container main#content aside#sidebar a {
+  color: #3d9ee2;
+}
+body .container main#content section.main {
+  margin-top: 20px;
+}
+body footer.jumbotron {
+  font-family: "Cuprum", sans-serif;
+  margin: 0;
+  padding: 30px 0 0 0;
+}
+body footer.jumbotron .container .row .col-sm-4 h2 {
+  font-family: "Indie Flower", cursive;
+}
+body footer.jumbotron .container .row .col-sm-4 h2 .AdamNews {
+  color: #91eee0;
+}
+body footer.jumbotron .container .row .col-sm-4 h2 .com {
+  color: #0a7b80;
+}
+body footer.jumbotron .container .row .col-sm-4 p {
+  margin: 0;
+}
+body footer.jumbotron .container .row ul {
+  padding: 0 0 0 20px;
+}
+body footer.jumbotron .container .row ul li {
+  list-style: none;
+}
+body footer.jumbotron .container .row ul li a {
+  text-decoration: none;
+  color: #3d9ee2;
+}
+body footer.jumbotron .container .row .col-sm-12 p {
+  height: 50px;
+  line-height: 50px;
+  margin: 0;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,17 @@
+/*!
+ * Copyright (c) 2020. Adam Arthur Faizal.
+ */
+
+// stylelint-disable declaration-no-important
+
+//
+// Visibility utilities
+//
+
+.visible {
+  visibility: visible !important;
+}
+
+.invisible {
+  visibility: hidden !important;
+}
