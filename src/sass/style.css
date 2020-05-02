@@ -24,6 +24,12 @@ p.live-clock {
   z-index: 999;
 }
 
+.custom-tag {
+  max-width: 100%;
+  height: 500px;
+  background: black;
+}
+
 header .jumbotron {
   background-color: #282c34;
   margin: 0;
@@ -31,8 +37,7 @@ header .jumbotron {
 header .jumbotron img {
   border: 5px solid #bbbbbb;
   box-shadow: 5px 5px 15px black;
-  margin-top: 45px;
-  margin-bottom: 50px;
+  margin: 50px auto;
 }
 header .jumbotron img.show-element {
   opacity: 1;
@@ -44,10 +49,6 @@ header .jumbotron h1 {
   color: white;
   text-shadow: 5px 5px 15px black;
 }
-header .jumbotron h1.show-element {
-  opacity: 1;
-  transform: translate(0, 0);
-}
 header .jumbotron p {
   color: white;
   margin-bottom: 30px;
@@ -55,41 +56,23 @@ header .jumbotron p {
 header .jumbotron p button {
   font-family: "Cuprum", sans-serif;
 }
-header .jumbotron p.show-element {
-  opacity: 1;
-  transform: translate(0, 0);
-}
 
 main section.about {
   background-color: lightblue;
   padding: 20px;
   font-family: "Cuprum", sans-serif;
 }
-main section.about .container .row .col-sm-12 hr {
-  width: 250px;
-  border-top: 5px solid #bbbbbb;
-}
-main section.about .container .row .col-sm-6 p {
-  text-align: justify;
-}
 main section.about .container .row .my_Pic img {
   width: 75%;
-}
-main section.about .container .row .col-sm-6.show-element, main section.about .container .row .my_Pic.show-element {
-  opacity: 1;
-  transform: translate(0, 0);
 }
 main section.portofolio {
   background-color: #282c34;
   padding: 20px;
+  font-family: "Cuprum", sans-serif;
 }
 main section.portofolio .container .row .col-sm-12 h2 {
   color: #eaeaea;
   text-shadow: 5px 5px 10px black;
-}
-main section.portofolio .container .row .col-sm-12 hr {
-  width: 250px;
-  border-top: 5px solid #bbbbbb;
 }
 main section.portofolio .row {
   margin: 0;
@@ -97,18 +80,15 @@ main section.portofolio .row {
 main section.portofolio .row .col-md-4 {
   margin-bottom: 10px;
 }
-main section.portofolio .row .col-md-4 img.show-element {
-  opacity: 1;
-  transform: translate(0, 0);
+main section.testimonials {
+  background-color: lightblue;
+  padding: 20px;
+  font-family: "Cuprum", sans-serif;
 }
 main section.contact {
   background-color: lightblue;
   padding: 20px;
   font-family: "Cuprum", sans-serif;
-}
-main section.contact .container .row .col-sm-12 hr {
-  width: 250px;
-  border-top: 5px solid #bbbbbb;
 }
 main section.contact .container .row .alert {
   padding-top: 0;
@@ -124,38 +104,6 @@ main section.contact .container .row .alert .media .media-body h5 {
 main section.contact .container .row .alert .media .media-body a {
   text-decoration: none;
   color: darkblue;
-}
-main section.contact .container .row .alert.show-element#alert-kiri, main section.contact .container .row .alert.show-element#alert-kanan {
-  opacity: 1;
-  transform: translate(0, 0);
-}
-main section.judul#judul {
-  padding: 20px 20px 0 20px;
-}
-main section.judul#judul h1 {
-  margin: 0;
-  padding: 0;
-  font-family: "Indie Flower", Arial, Verdana, sans-serif, cursive;
-}
-main section.judul#judul hr {
-  width: 500px;
-  border-top: 5px solid #bbbbbb;
-  margin-bottom: 5px;
-}
-main section.judul#judul h6 {
-  font-size: 15px;
-  color: #7b7b7b;
-}
-main section.judul#judul.show-element {
-  opacity: 1;
-  transform: translate(0, 0);
-}
-main section.blog-content#blog-content {
-  padding: 20px 40px;
-}
-main section.blog-content#blog-content.show-element {
-  opacity: 1;
-  transform: translate(0, 0);
 }
 
 footer {

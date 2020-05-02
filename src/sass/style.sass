@@ -25,22 +25,19 @@ p.live-clock
     right: 20px
     z-index: 999
 
+.custom-tag
+    max-width: 100%
+    height: 500px
+    background: black
+
 header
     .jumbotron
-        //background-image: url("../img/ilya-pavlov-OqtafYT5kTw-unsplash.jpg")
-        //background-attachment: fixed
-        //background-size: cover
-        //overflow: hidden
         background-color: #282c34
         margin: 0
         img
             border: 5px solid #bbbbbb
             box-shadow: 5px 5px 15px rgba(0,0,0)
-            margin-top: 45px
-            margin-bottom: 50px
-            //opacity: 0
-            //transform: translate(0, -50px)
-            //transition: 0.8s
+            margin: 50px auto
         img.show-element
             opacity: 1
             transform: translate(0,0)
@@ -49,92 +46,49 @@ header
             font-family: 'Indie Flower', Arial, Verdana, sans-serif
             color: white
             text-shadow: 5px 5px 15px rgba(0,0,0)
-            //opacity: 0
-            //transform: translate(0, -50px)
-            //transition: 0.8s
-        h1.show-element
-            opacity: 1
-            transform: translate(0,0)
         p
             color: white
             margin-bottom: 30px
-            //opacity: 0
-            //transform: translate(0, -50px)
-            //transition: 0.8s
             button
                 font-family: 'Cuprum', sans-serif
-        p.show-element
-            opacity: 1
-            transform: translate(0 ,0)
 
 main
     section.about
-        //background-image: url("../img/symphony.png")
-        //background-attachment: fixed
         background-color: lightblue
         padding: 20px
         font-family: 'Cuprum', sans-serif
         .container
             .row
-                .col-sm-12
-                    hr
-                        width: 250px
-                        border-top: 5px solid #bbbbbb
-                .col-sm-6
-                    //opacity: 0
-                    //transform: translate(-50px, 0) rotate(30deg)
-                    //transition: 2s
-                    p
-                        text-align: justify
                 .my_Pic
-                    //opacity: 0
-                    //transform: translate(50px,0) rotate(-30deg)
-                    //transition: 2s
                     img
                         width: 75%
-                .col-sm-6.show-element, .my_Pic.show-element
-                    opacity: 1
-                    transform: translate(0,0)
 
     section.portofolio
-        //background-image: url("../img/clement-h-95YRwf6CNw8-unsplash.jpg")
-        //background-size: cover
-        //background-attachment: fixed
         background-color: #282c34
         padding: 20px
+        font-family: 'Cuprum', sans-serif
         .container
             .row
                 .col-sm-12
                     h2
                         color: #eaeaea
                         text-shadow: 5px 5px 10px rgb(0,0,0)
-                    hr
-                        width: 250px
-                        border-top: 5px solid #bbbbbb
         .row
             margin: 0
             .col-md-4
                 margin-bottom: 10px
-                img
-                    //opacity: 0
-                    //transform: translate(0,-50px)
-                    //transition: 1s
-                img.show-element
-                    opacity: 1
-                    transform: translate(0,0)
+
+    section.testimonials
+        background-color: lightblue
+        padding: 20px
+        font-family: 'Cuprum', sans-serif
 
     section.contact
-        //background-image: url("../img/symphony.png")
-        //background-attachment: fixed
         background-color: lightblue
         padding: 20px
         font-family: 'Cuprum', sans-serif
         .container
             .row
-                .col-sm-12
-                    hr
-                        width: 250px
-                        border-top: 5px solid #bbbbbb
                 .alert
                     padding-top: 0
                     padding-bottom: 0
@@ -147,47 +101,6 @@ main
                             a
                                 text-decoration: none
                                 color: darkblue
-                .alert#alert-kiri, .alert#alert-kanan
-                    //opacity: 0
-                    //transform: translate(-50px,0) rotate(30deg)
-                    //transition: 2s
-                .alert#alert-kanan
-                    //transform: translate(50px,0) rotate(-30deg)
-                .alert.show-element#alert-kiri, .alert.show-element#alert-kanan
-                    opacity: 1
-                    transform: translate(0,0)
-
-    section.judul#judul
-        padding: 20px 20px 0 20px
-        //opacity: 0
-        //transform: translate(0, -50px)
-        //transition: 2s
-        h1
-            margin: 0
-            padding: 0
-            font-family: "Indie Flower", Arial, Verdana, sans-serif, cursive
-        hr
-            width: 500px
-            border-top: 5px solid #bbbbbb
-            margin-bottom: 5px
-        h6
-            font-size: 15px
-            color: #7b7b7b
-
-    section.judul#judul.show-element
-        opacity: 1
-        transform: translate(0,0)
-
-    section.blog-content#blog-content
-        padding: 20px 40px
-        //opacity: 0
-        //transform: translate(0, -50px)
-        //transition: 2s
-
-    section.blog-content#blog-content.show-element
-        opacity: 1
-        transform: translate(0,0)
-
 
 footer
     width: 100%

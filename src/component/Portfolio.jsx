@@ -28,8 +28,8 @@ function Portfolio() {
         <section className="portofolio" id="portofolio">
             <Container className="themed-container">
                 <Row>
-                    <Col sm="12" className="text-center">
-                        <h2 className="font-weight-bold">Portfolio</h2>
+                    <Col sm="12">
+                        <h2 className="text-center font-weight-bold">Portfolio</h2>
                     </Col>
                 </Row>
                 <Row>

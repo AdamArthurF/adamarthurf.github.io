@@ -17,8 +17,9 @@ import {
     NavbarText,
     NavbarToggler,
     NavItem,
-    NavLink, Row, Spinner
+    NavLink, Row, Spinner, UncontrolledCarousel
 } from "reactstrap";
+import Testimonials from "./component/Testimonials";
 const About = React.lazy(() => import('./component/About'));
 const Portfolio = React.lazy(() => import('./component/Portfolio'));
 const Contact = React.lazy(() => import('./component/Contact'));
@@ -121,6 +122,8 @@ class AppMain extends Component {
                     {/*  Portofolio  */}
                     <Portfolio/>
                     {/*  Akhir dari Portofolio  */}
+                    {/* Testimonials*/}
+                    <Testimonials/>
                     {/*  Contact  */}
                     <Contact/>
                     {/*  Akhir dari contact  */}
@@ -341,6 +344,13 @@ Spinner.propTypes = {
     className: PropTypes.string,
     cssModule: PropTypes.object,
     children: PropTypes.string, // default: 'Loading...'
+};
+
+UncontrolledCarousel.propTypes = {
+    items: PropTypes.array.isRequired,
+    indicators: PropTypes.bool, // default: true
+    controls: PropTypes.bool, // default: true
+    autoPlay: PropTypes.bool, // default: true
 };
 
 export default AppRouter;

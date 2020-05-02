@@ -12,12 +12,12 @@ class About extends Component {
                 <Container className="themed-container">
                     <Row>
                         <Col sm="12">
-                            <h2 className="text-center"><b>About</b></h2>
+                            <h2 className="text-center font-weight-bold">About</h2>
                         </Col>
                     </Row>
                     <Row id="about-content">
                         <Col sm="6">
-                            <p>
+                            <p className="text-justify">
                                 Hai namaku Adam, kalian bisa memanggilku Arthur. Saat ini aku sedang berkuliah di
                                 Universitas
                                 Sebelas Maret Surakarta, program studi Teknik Informatika angkatan 2019. Umurku baru 17

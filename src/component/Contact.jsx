@@ -10,8 +10,8 @@ class Contact extends Component {
             <section className="contact" id="contact">
                 <Container className="themed-container">
                     <Row>
-                        <Col sm="12" className="text-center">
-                            <h2 className="font-weight-bold">Contact</h2>
+                        <Col sm="12">
+                            <h2 className="text-center font-weight-bold">Contact</h2>
                         </Col>
                     </Row>
                     <div className="d-lg-flex justify-content-center">
