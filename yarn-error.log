@@ -1,0 +1,75 @@
+Arguments: 
+  /usr/bin/node /usr/local/bin/yarn install
+
+PATH: 
+  /home/linuxbrew/.linuxbrew/bin:/home/adam/.config/composer/vendor/bin:/opt/lappstack-7.3.17-0/postgresql/bin:/opt/lampstack-7.4.7-0/mysql/bin:/usr/lib/jvm/jdk-13/bin:/home/adam/GitHub/MyWebsitePortfolio/adamarthurf.github.io/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/games:/snap/bin:/home/adam/.dotnet/tools:/home/adam/.rvm/bin:/media/adam/2C76CD9276CD5D68/Smad-Lock(BrankasSmadav)/Android/Sdk/emulator:/media/adam/2C76CD9276CD5D68/Smad-Lock(BrankasSmadav)/Android/Sdk/tools:/media/adam/2C76CD9276CD5D68/Smad-Lock(BrankasSmadav)/Android/Sdk/tools/bin:/media/adam/2C76CD9276CD5D68/Smad-Lock(BrankasSmadav)/Android/Sdk/platform-tools
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  10.15.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/adam/GitHub/MyWebsitePortfolio/adamarthurf.github.io/package.json: Unexpected token } in JSON at position 1021
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "homepage": "https://adamarthurf.github.io/",
+    "name": "react-app",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "body-parser": "^1.19.0",
+      "bootstrap": "^4.4.1",
+      "cors": "^2.8.5",
+      "cross-env": "^7.0.2",
+      "express": "^4.17.1",
+      "isomorphic-unfetch": "^3.0.0",
+      "jquery": "^3.5.1",
+      "next": "^9.3.4",
+      "prop-types": "^15.7.2",
+      "react": "^16.13.1",
+      "react-dom": "^16.13.1",
+      "react-transition-group": "^4.4.1",
+      "reactstrap": "^8.4.1",
+      "sass": "^1.26.10"
+    },
+    "scripts": {
+      "server": "node src/server.js",
+      "build": "next build && next export",
+      "start": "cross-env NODE_ENV=production node src/server.js"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    },
+    "devDependencies": {
+      "gh-pages": "^2.2.0",
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

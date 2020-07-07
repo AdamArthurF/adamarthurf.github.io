@@ -2,14 +2,8 @@
  * Copyright (c) 2020. Adam Arthur Faizal.
  */
 import React, {useState} from 'react';
-import gambar1 from '../img/loading/DSC0021.JPG';
-import gambar2 from '../img/loading/DSC0061.JPG';
-import gambar3 from '../img/loading/IMG_2979.JPG';
-import gambar4 from '../img/loading/IMG_8154.JPG';
-import gambar5 from '../img/loading/IMG_9483.JPG';
-import gambar6 from '../img/loading/IMG_9618.JPG';
-import {NavLink} from "react-router-dom";
 import {Button, Modal, ModalBody, ModalFooter, ModalHeader, Container, Row, Col} from "reactstrap";
+import Link from "next/link";
 
 function Portfolio() {
     const [modal, setModal] = useState(false);
@@ -34,13 +28,13 @@ function Portfolio() {
                 </Row>
                 <Row>
                     <Col md="4">
-                        <NavLink to="#" onClick={toggle}>
-                            <img src={gambar1} alt="Naruto" className="img-thumbnail"/>
-                        </NavLink>
+                        <Link href="#" onClick={toggle}>
+                            <img src='/img/loading/DSC0021.JPG' alt="Naruto" className="img-thumbnail"/>
+                        </Link>
                         <Modal isOpen={modal} toggle={toggle} size="lg">
                             <ModalHeader toggle={toggle}>Portfolio</ModalHeader>
                             <ModalBody>
-                                <img src={gambar1} alt="gambar" className="img-thumbnail"/>
+                                <img src='/img/loading/DSC0021.JPG' alt="gambar" className="img-thumbnail"/>
                             </ModalBody>
                             <ModalFooter>
                                 <Button color="secondary" onClick={toggle}>Close</Button>
@@ -48,13 +42,13 @@ function Portfolio() {
                         </Modal>
                     </Col>
                     <Col md="4">
-                        <NavLink to="#" onClick={toggle2}>
-                            <img src={gambar2} alt="Naruto" className="img-thumbnail"/>
-                        </NavLink>
+                        <Link href="#" onClick={toggle2}>
+                            <img src='/img/loading/DSC0061.JPG' alt="Naruto" className="img-thumbnail"/>
+                        </Link>
                         <Modal isOpen={modal2} toggle={toggle2} size="lg">
                             <ModalHeader toggle={toggle2}>Portfolio</ModalHeader>
                             <ModalBody>
-                                <img src={gambar2} alt="gambar" className="img-thumbnail"/>
+                                <img src='/img/loading/DSC0061.JPG' alt="gambar" className="img-thumbnail"/>
                             </ModalBody>
                             <ModalFooter>
                                 <Button color="secondary" onClick={toggle2}>Close</Button>
@@ -62,13 +56,13 @@ function Portfolio() {
                         </Modal>
                     </Col>
                     <Col md="4">
-                        <NavLink to="#" onClick={toggle3}>
-                            <img src={gambar3} alt="Naruto" className="img-thumbnail"/>
-                        </NavLink>
+                        <Link href="#" onClick={toggle3}>
+                            <img src='/img/loading/IMG_2979.JPG' alt="Naruto" className="img-thumbnail"/>
+                        </Link>
                         <Modal isOpen={modal3} toggle={toggle3} size="lg">
                             <ModalHeader toggle={toggle3}>Portfolio</ModalHeader>
                             <ModalBody>
-                                <img src={gambar3} alt="gambar" className="img-thumbnail"/>
+                                <img src='/img/loading/IMG_2979.JPG' alt="gambar" className="img-thumbnail"/>
                             </ModalBody>
                             <ModalFooter>
                                 <Button color="secondary" onClick={toggle3}>Close</Button>
@@ -76,13 +70,13 @@ function Portfolio() {
                         </Modal>
                     </Col>
                     <Col md="4">
-                        <NavLink to="#" onClick={toggle4}>
-                            <img src={gambar4} alt="Naruto" className="img-thumbnail"/>
-                        </NavLink>
+                        <Link href="#" onClick={toggle4}>
+                            <img src='/img/loading/IMG_8154.JPG' alt="Naruto" className="img-thumbnail"/>
+                        </Link>
                         <Modal isOpen={modal4} toggle={toggle4} size="lg">
                             <ModalHeader toggle={toggle4}>Portfolio</ModalHeader>
                             <ModalBody>
-                                <img src={gambar4} alt="gambar" className="img-thumbnail"/>
+                                <img src='/img/loading/IMG_8154.JPG' alt="gambar" className="img-thumbnail"/>
                             </ModalBody>
                             <ModalFooter>
                                 <Button color="secondary" onClick={toggle4}>Close</Button>
@@ -90,13 +84,13 @@ function Portfolio() {
                         </Modal>
                     </Col>
                     <Col md="4">
-                        <NavLink to="#" onClick={toggle5}>
-                            <img src={gambar5} alt="Naruto" className="img-thumbnail"/>
-                        </NavLink>
+                        <Link href="#" onClick={toggle5}>
+                            <img src='/img/loading/IMG_9483.JPG' alt="Naruto" className="img-thumbnail"/>
+                        </Link>
                         <Modal isOpen={modal5} toggle={toggle5} size="lg">
                             <ModalHeader toggle={toggle5}>Portfolio</ModalHeader>
                             <ModalBody>
-                                <img src={gambar5} alt="gambar" className="img-thumbnail"/>
+                                <img src='/img/loading/IMG_9483.JPG' alt="gambar" className="img-thumbnail"/>
                             </ModalBody>
                             <ModalFooter>
                                 <Button color="secondary" onClick={toggle5}>Close</Button>
@@ -104,13 +98,13 @@ function Portfolio() {
                         </Modal>
                     </Col>
                     <Col md="4">
-                        <NavLink to="#" onClick={toggle6}>
-                            <img src={gambar6} alt="Naruto" className="img-thumbnail"/>
-                        </NavLink>
+                        <Link href="#" onClick={toggle6}>
+                            <img src='/img/loading/IMG_9618.JPG' alt="Naruto" className="img-thumbnail"/>
+                        </Link>
                         <Modal isOpen={modal6} toggle={toggle6} size="lg">
                             <ModalHeader toggle={toggle6}>Portfolio</ModalHeader>
                             <ModalBody>
-                                <img src={gambar6} alt="gambar" className="img-thumbnail"/>
+                                <img src='/img/loading/IMG_9618.JPG' alt="gambar" className="img-thumbnail"/>
                             </ModalBody>
                             <ModalFooter>
                                 <Button color="secondary" onClick={toggle6}>Close</Button>

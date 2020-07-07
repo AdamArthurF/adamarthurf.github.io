@@ -10,12 +10,29 @@ import {
     Col,
     Container,
     Row,
-    UncontrolledCarousel
 } from "reactstrap";
 
 function Testimonials(props) {
     const [activeIndex, setActiveIndex] = useState(0);
     const [animating, setAnimating] = useState(false);
+
+    const items = [
+        {
+            id: 1,
+            altText: 'Slide 1',
+            caption: 'Slide 1'
+        },
+        {
+            id: 2,
+            altText: 'Slide 2',
+            caption: 'Slide 2'
+        },
+        {
+            id: 3,
+            altText: 'Slide 3',
+            caption: 'Slide 3'
+        }
+    ];
 
     const next = () => {
         if (animating) return;
@@ -47,24 +64,6 @@ function Testimonials(props) {
             </CarouselItem>
         );
     });
-
-    const items = [
-        {
-            id: 1,
-            altText: 'Slide 1',
-            caption: 'Slide 1'
-        },
-        {
-            id: 2,
-            altText: 'Slide 2',
-            caption: 'Slide 2'
-        },
-        {
-            id: 3,
-            altText: 'Slide 3',
-            caption: 'Slide 3'
-        }
-    ];
 
     return (
         <section className="testimonials" id="testimonials">

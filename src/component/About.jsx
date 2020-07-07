@@ -2,7 +2,6 @@
  * Copyright (c) 2020. Adam Arthur Faizal.
  */
 import React, {Component} from 'react';
-import mypicture from '../img/about/foto_sma.jpg';
 import {Col, Container, Row} from "reactstrap";
 
 class About extends Component {
@@ -27,7 +26,7 @@ class About extends Component {
                         </Col>
                         <Col sm={{size: 5, offset: 1}}>
                             <div className="my_Pic img-fluid">
-                                <img className="img-thumbnail" id="my_Pic" src={mypicture} alt="Foto SMA"/>
+                                <img className="img-thumbnail" id="my_Pic" src='/img/about/foto_sma.jpg' alt="Foto SMA"/>
                             </div>
                         </Col>
                     </Row>
