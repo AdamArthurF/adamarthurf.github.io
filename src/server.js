@@ -14,22 +14,9 @@ app.prepare().then(() => {
     server.use(bodyParser.json())
     server.use(cors())
 
-    server.use((req, res, next) => {
-        res.header('Access-Control-Allow-Origin', '*')
-        res.header('Access-Control-Allow-Methods', 'OPTIONS, GET, PUT, PATCH, POST, DELETE')
-        res.header('Access-Control-Allow-Headers', 'Content-Type, X-Requested-With, Authorization')
-        next();
-    })
-
     server.get('/', (req, res) => {
         return app.render(req, res, '/')
     });
-
-    server.get('/Posts/:id', (req, res) => {
-        const pathname = '/Posts/[id]'
-        const urlQuery = {id: req.params.id}
-        return app.render(req, res, pathname, urlQuery)
-    })
 
     server.all('*', (req, res) => {
         return handle(req, res)

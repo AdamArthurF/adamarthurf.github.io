@@ -2,7 +2,7 @@
  * Copyright (c) 2020. Adam Arthur Faizal.
  */
 
-import React, {Component, Suspense, useState} from 'react';
+import React, {Component, useState} from 'react';
 import PropTypes from 'prop-types';
 import {
     Alert,
@@ -30,6 +30,7 @@ export default class Home extends Component {
                 <Head>
                     <title>My Website Portfolio | React App</title>
                     <link rel="icon" href="/favicon.ico"/>
+                    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/5.14.0/css/font-awesome.min.css"/>
                 </Head>
 
                 <AppHeader/>
@@ -69,7 +70,7 @@ export function AppNavbar(){
                                 <NavLink href="https://github.com/AdamArthurF" className="active" target="_blank">GitHub</NavLink>
                             </NavItem>
                         </Nav>
-                        <NavbarText>React JS version : {React.version}</NavbarText>
+                        <NavbarText>React.js version : {React.version}</NavbarText>
                     </Collapse>
                 </Container>
             </Navbar>
@@ -84,7 +85,7 @@ export class AppHeader extends Component {
         this.state = {
             name: 'Adam Arthur Faizal',
             target1: 'Web Developer',
-            target2: 'Mobile Index Developer',
+            target2: 'Mobile App Developer',
             target3: 'Cyber Security'
         }
     }
