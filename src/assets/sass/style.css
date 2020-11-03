@@ -85,6 +85,11 @@ main section.testimonials {
   padding: 20px;
   font-family: "Cuprum", sans-serif;
 }
+main section.sosmed {
+  background-color: #282c34;
+  padding: 20px;
+  font-family: "Cuprum", sans-serif;
+}
 main section.contact {
   background-color: lightblue;
   padding: 20px;

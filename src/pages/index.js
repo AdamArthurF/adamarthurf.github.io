@@ -21,6 +21,7 @@ import Testimonials from "../component/Testimonials";
 import Head from "next/head";
 import About from '../component/About';
 import Portfolio from "../component/Portfolio";
+import Sosmed from "../component/Sosmed";
 import Contact from "../component/Contact";
 
 export default class Home extends Component {
@@ -30,7 +31,6 @@ export default class Home extends Component {
                 <Head>
                     <title>My Website Portfolio | React App</title>
                     <link rel="icon" href="/favicon.ico"/>
-                    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/5.14.0/css/font-awesome.min.css"/>
                 </Head>
 
                 <AppHeader/>
@@ -125,6 +125,8 @@ export class AppMain extends Component {
                 {/*  Akhir dari Portofolio  */}
                 {/* Testimonials*/}
                 <Testimonials/>
+                {/*  Social Media  */}
+                <Sosmed/>
                 {/*  Contact  */}
                 <Contact/>
                 {/*  Akhir dari contact  */}
