@@ -13,6 +13,12 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "Open Sans";
+  src: url("../font/Open_Sans/OpenSans-Regular.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
 nav.navbar {
   font-family: "Cuprum", sans-serif;
 }
@@ -31,84 +37,44 @@ p.live-clock {
 }
 
 header .jumbotron {
-  background-color: #282c34;
+  background-image: url("../../../public/img/renee-fisher-8dUVzOlBuyQ-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   margin: 0;
-}
-header .jumbotron img {
-  border: 5px solid #bbbbbb;
-  box-shadow: 5px 5px 15px black;
-  margin: 50px auto;
-}
-header .jumbotron img.show-element {
-  opacity: 1;
-  transform: translate(0, 0);
+  min-height: 80vh;
 }
 header .jumbotron h1 {
-  font-weight: bold;
-  font-family: "Indie Flower", Arial, Verdana, sans-serif;
+  font-family: "Open Sans", serif;
+  font-size: 8rem;
+  font-weight: 900;
   color: white;
   text-shadow: 5px 5px 15px black;
 }
-header .jumbotron p {
+header .jumbotron span {
+  font-family: "Open Sans", serif;
   color: white;
-  margin-bottom: 30px;
-}
-header .jumbotron p button {
-  font-family: "Cuprum", sans-serif;
+  margin-left: 6rem;
 }
 
-main section.about {
+main section.project {
+  font-family: "Cuprum", sans-serif;
+}
+main section.project .biru {
+  min-height: 60vh;
   background-color: lightblue;
-  padding: 20px;
-  font-family: "Cuprum", sans-serif;
 }
-main section.about .container .row .my_Pic img {
-  width: 75%;
+main section.project .terang {
+  min-height: 60vh;
+  background-color: white;
 }
-main section.portofolio {
-  background-color: #282c34;
-  padding: 20px;
-  font-family: "Cuprum", sans-serif;
+main section.project p {
+  font-size: 1.6rem;
+  color: #a0a0a0;
 }
-main section.portofolio .container .row .col-sm-12 h2 {
-  color: #eaeaea;
-  text-shadow: 5px 5px 10px black;
-}
-main section.portofolio .row {
-  margin: 0;
-}
-main section.portofolio .row .col-md-4 {
-  margin-bottom: 10px;
-}
-main section.testimonials {
-  background-color: lightblue;
-  padding: 20px;
-  font-family: "Cuprum", sans-serif;
-}
-main section.sosmed {
-  background-color: #282c34;
-  padding: 20px;
-  font-family: "Cuprum", sans-serif;
-}
-main section.contact {
-  background-color: lightblue;
-  padding: 20px;
-  font-family: "Cuprum", sans-serif;
-}
-main section.contact .container .row .alert {
-  padding-top: 0;
-  padding-bottom: 0;
-  margin-bottom: 0;
-}
-main section.contact .container .row .alert .media {
-  margin-bottom: 20px;
-}
-main section.contact .container .row .alert .media .media-body h5 {
-  margin: 0;
-}
-main section.contact .container .row .alert .media .media-body a {
-  text-decoration: none;
-  color: darkblue;
+main section.project img {
+  border: 10px solid #eaeaea;
+  box-shadow: 5px 5px 15px black;
 }
 
 footer {
@@ -168,10 +134,6 @@ footer h5 a {
   header .jumbotron p button.btn {
     font-size: 11px;
     padding: 7px;
-  }
-
-  main section.contact#contact a.btn-link {
-    font-size: 13px;
   }
 
   footer h5 {

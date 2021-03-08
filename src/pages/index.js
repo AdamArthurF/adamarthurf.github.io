@@ -5,24 +5,11 @@
 import React, {Component, useState} from 'react';
 import PropTypes from 'prop-types';
 import {
-    Alert,
-    Button, Col,
-    Collapse, Container, Fade,
-    Jumbotron, Modal,
-    Nav,
-    Navbar,
-    NavbarBrand,
-    NavbarText,
-    NavbarToggler,
-    NavItem,
-    NavLink, Row, Spinner, UncontrolledCarousel
+    Alert, Button, Col, Collapse, Container, Fade, Jumbotron, Modal, Nav, Navbar, NavbarBrand,
+    NavbarText, NavbarToggler, NavItem, NavLink, Row, Spinner, UncontrolledCarousel
 } from "reactstrap";
-import Testimonials from "../component/Testimonials";
 import Head from "next/head";
-import About from '../component/About';
-import Portfolio from "../component/Portfolio";
-import Sosmed from "../component/Sosmed";
-import Contact from "../component/Contact";
+import Project from "../component/Project";
 
 export default class Home extends Component {
     render() {
@@ -32,12 +19,9 @@ export default class Home extends Component {
                     <title>My Website Portfolio | React App</title>
                     <link rel="icon" href="/favicon.ico"/>
                 </Head>
-
                 <AppHeader/>
                 <AppMain/>
-                {/*  Footer  */}
                 <AppFooter/>
-                 {/*  Akhir dari footer  */}
             </React.Fragment>
         );
     }
@@ -48,7 +32,7 @@ export function AppNavbar(){
     const toggle = () => setIsOpen(!isOpen);
     return (
         <React.Fragment>
-            <Navbar color="info" dark fixed="top" expand="md" className="text-center">
+            <Navbar color="secondary" dark fixed="top" expand="md" className="text-center">
                 <Container className="themed-container" fluid={true}>
                     <NavbarBrand href="/" className="font-weight-bold">Adam</NavbarBrand>
                     <NavbarToggler onClick={toggle} />
@@ -58,16 +42,10 @@ export function AppNavbar(){
                                 <NavLink href="#home">Home</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="#about">About</NavLink>
+                                <NavLink href="#about">Project</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="#portfolio">Portfolio</NavLink>
-                            </NavItem>
-                            <NavItem>
-                                <NavLink href="#contact">Contact</NavLink>
-                            </NavItem>
-                            <NavItem>
-                                <NavLink href="https://github.com/AdamArthurF" className="active" target="_blank">GitHub</NavLink>
+                                <NavLink href="#portfolio">About Me</NavLink>
                             </NavItem>
                         </Nav>
                         <NavbarText>React.js version : {React.version}</NavbarText>
@@ -83,10 +61,7 @@ export class AppHeader extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            name: 'Adam Arthur Faizal',
-            target1: 'Web Developer',
-            target2: 'Mobile App Developer',
-            target3: 'Cyber Security'
+            name: 'projects',
         }
     }
 
@@ -98,14 +73,9 @@ export class AppHeader extends Component {
                 {/*  Akhir dari Navbar  */}
 
                 {/*  Jumbotron  */}
-                <Jumbotron className="text-center">
-                    <img src='/img/thumbs/naruto2.jpg' alt="Adam" className="rounded-circle"/>
-                    <h1>{this.state.name}</h1>
-                    <p>
-                        <Button color="info">{this.state.target1}</Button>{' '}
-                        <Button color="info">{this.state.target2}</Button>{' '}
-                        <Button color="info">{this.state.target3}</Button>
-                    </p>
+                <Jumbotron className="d-flex flex-column align-items-start justify-content-center p-5">
+                    <h1 className="display-1 ml-5 pl-5 mb-0">{this.state.name}</h1>
+                    <span className="pl-5">Full-Stack Dev</span>
                 </Jumbotron>
                 {/*  Akhir dari Jumbotron  */}
             </header>
@@ -117,19 +87,7 @@ export class AppMain extends Component {
     render() {
         return (
             <main>
-                {/*  About  */}
-                <About/>
-                {/* Akhir dari About  */}
-                {/*  Portofolio  */}
-                <Portfolio/>
-                {/*  Akhir dari Portofolio  */}
-                {/* Testimonials*/}
-                <Testimonials/>
-                {/*  Social Media  */}
-                <Sosmed/>
-                {/*  Contact  */}
-                <Contact/>
-                {/*  Akhir dari contact  */}
+                <Project/>
             </main>
         )
     }

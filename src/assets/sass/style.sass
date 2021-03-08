@@ -15,6 +15,12 @@
     font-weight: normal
     font-style: normal
 
+@font-face
+    font-family: 'Open Sans'
+    src: url("../font/Open_Sans/OpenSans-Regular.ttf") format('ttf')
+    font-weight: normal
+    font-style: normal
+
 nav.navbar
     font-family: 'Cuprum', sans-serif
     //transition: 1s
@@ -32,80 +38,38 @@ p.live-clock
 
 header
     .jumbotron
-        background-color: #282c34
+        background-image: url("../../../public/img/renee-fisher-8dUVzOlBuyQ-unsplash.jpg")
+        background-size: cover
+        background-repeat: no-repeat
+        background-attachment: fixed
         margin: 0
-        img
-            border: 5px solid #bbbbbb
-            box-shadow: 5px 5px 15px rgba(0,0,0)
-            margin: 50px auto
-        img.show-element
-            opacity: 1
-            transform: translate(0,0)
+        min-height: 80vh
         h1
-            font-weight: bold
-            font-family: 'Indie Flower', Arial, Verdana, sans-serif
+            font-family: 'Open Sans', serif
+            font-size: 8rem
+            font-weight: 900
             color: white
             text-shadow: 5px 5px 15px rgba(0,0,0)
-        p
+        span
+            font-family: 'Open Sans', serif
             color: white
-            margin-bottom: 30px
-            button
-                font-family: 'Cuprum', sans-serif
+            margin-left: 6rem
 
 main
-    section.about
-        background-color: lightblue
-        padding: 20px
+    section.project
         font-family: 'Cuprum', sans-serif
-        .container
-            .row
-                .my_Pic
-                    img
-                        width: 75%
-
-    section.portofolio
-        background-color: #282c34
-        padding: 20px
-        font-family: 'Cuprum', sans-serif
-        .container
-            .row
-                .col-sm-12
-                    h2
-                        color: #eaeaea
-                        text-shadow: 5px 5px 10px rgb(0,0,0)
-        .row
-            margin: 0
-            .col-md-4
-                margin-bottom: 10px
-
-    section.testimonials
-        background-color: lightblue
-        padding: 20px
-        font-family: 'Cuprum', sans-serif
-
-    section.sosmed
-        background-color: #282c34
-        padding: 20px
-        font-family: 'Cuprum', sans-serif
-
-    section.contact
-        background-color: lightblue
-        padding: 20px
-        font-family: 'Cuprum', sans-serif
-        .container
-            .row
-                .alert
-                    padding-top: 0
-                    padding-bottom: 0
-                    margin-bottom: 0
-                    .media
-                        margin-bottom: 20px
-                        .media-body
-                            h5
-                                margin: 0
-                            a
-                                text-decoration: none
-                                color: darkblue
+        .biru
+            min-height: 60vh
+            background-color: lightblue
+        .terang
+            min-height: 60vh
+            background-color: white
+        p
+            font-size: 1.6rem
+            color: #a0a0a0
+        img
+            border: 10px solid #eaeaea
+            box-shadow: 5px 5px 15px rgba(0,0,0)
 
 footer
     width: 100%
@@ -165,11 +129,6 @@ footer
                 button.btn
                     font-size: 11px
                     padding: 7px
-
-    main
-        section.contact#contact
-            a.btn-link
-                font-size: 13px
     footer
         h5
             font-size: 13px
