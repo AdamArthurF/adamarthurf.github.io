@@ -1,20 +1,14 @@
 /*
  * Copyright (c) 2020. Adam Arthur Faizal.
  */
-import React, {useState} from 'react';
+import React from 'react';
 import {
-    Button,
-    Modal,
-    ModalBody,
-    ModalFooter,
-    ModalHeader,
     Container,
     Row,
     Col,
     ListGroup,
     ListGroupItem
 } from "reactstrap";
-import Link from "next/link";
 
 function Project() {
     return (
@@ -38,17 +32,17 @@ function Project() {
                         </div>
                     </Col>
 
-                    <Col sm="6" className='biru p-5 d-flex justify-content-center align-items-center border-bottom border-secondary'>
+                    <Col sm="6" className='biru p-5 d-flex justify-content-center align-items-center border-bottom '>
                         <img src="img/project/suwit-jawa.png" alt="Suwit Jawa Game" className="img-fluid rounded-lg" width="500"/>
                     </Col>
                 </Row>
 
                 <Row>
-                    <Col sm="6" className="biru p-5 d-flex justify-content-center align-items-center">
+                    <Col sm="6" className="orange p-5 d-flex justify-content-center align-items-center">
                         <img src="img/project/whack-a-mole.png" alt="Pukul Tikus Tanah" className="img-fluid rounded-lg" width="500"/>
                     </Col>
 
-                    <Col sm="6" className='putih p-5 border-bottom border-secondary'>
+                    <Col sm="6" className='putih p-5 border-bottom  d-flex flex-column align-items-center justify-content-center'>
                         <h1 className="text-center font-weight-bold mb-3">Whack a Mole</h1>
                         <p className="mb-5 text-center">
                             Arcade game for children. This project is built with HTML, CSS (Flex Box), and JavaScript
@@ -68,7 +62,7 @@ function Project() {
                 </Row>
 
                 <Row>
-                    <Col sm="6" className="putih p-5">
+                    <Col sm="6" className="putih p-5 d-flex flex-column align-items-center justify-content-center">
                         <h1 className="text-center font-weight-bold">AdamMovies | Movie Search Engine</h1>
                         <p className="mb-5 text-center">
                             A simple single page app that contains search engines to find movies. This project fetch and search movies from IMDB API. It build with React.js and Bootstrap
@@ -85,16 +79,16 @@ function Project() {
                         </div>
                     </Col>
 
-                    <Col sm="6" className='biru p-5 d-flex justify-content-center align-items-center border-bottom border-secondary'>
+                    <Col sm="6" className='hijau p-5 d-flex justify-content-center align-items-center border-bottom '>
                         <img src="img/project/adammovies.png" alt="Adam Movies" className="img-fluid rounded-lg" width="500"/>
                     </Col>
                 </Row>
 
                 <Row>
-                    <Col sm="6" className="biru p-5 d-flex justify-content-center align-items-center">
+                    <Col sm="6" className="lime p-5 d-flex justify-content-center align-items-center">
                         <img src="img/project/todoapp.png" alt="TodoApp" className="img-fluid rounded-lg" width="500"/>
                     </Col>
-                    <Col sm="6" className="putih p-5 border-bottom border-secondary">
+                    <Col sm="6" className="putih p-5 border-bottom  d-flex flex-column align-items-center justify-content-center">
                         <h1 className="text-center font-weight-bold">Todo App</h1>
                         <p className="mb-5 text-center">
                             Very simple single page app that contains TodoApp. It build with React.js and Reactstrap </p>
@@ -112,7 +106,7 @@ function Project() {
                 </Row>
 
                 <Row>
-                    <Col sm="6" className="p-5">
+                    <Col sm="6" className="p-5 putih d-flex flex-column align-items-center justify-content-center">
                         <h1 className="text-center font-weight-bold">Tic Tac Toe Game</h1>
                         <p className="mb-5 text-center">
                             Simple arcade game for children. It build with React.js </p>
@@ -128,7 +122,7 @@ function Project() {
                         </div>
                     </Col>
 
-                    <Col sm="6" className="biru p-5 d-flex justify-content-center align-items-center border-bottom border-secondary">
+                    <Col sm="6" className="coklat p-5 d-flex justify-content-center align-items-center border-bottom ">
                         <img src="img/project/tictactoe.png" alt="Tic Tac Toe" className="img-fluid rounded-lg" width="500"/>
                     </Col>
                 </Row>
@@ -138,7 +132,7 @@ function Project() {
                         <img src="img/project/adamanime.png" alt="Adam Anime" className="img-fluid rounded-lg" width="500"/>
                     </Col>
 
-                    <Col sm="6" className='putih p-5 border-bottom border-secondary '>
+                    <Col sm="6" className='putih p-5 border-bottom  d-flex flex-column align-items-center justify-content-center'>
                         <h1 className="text-center font-weight-bold">AdamAnime | Anime Search Engine</h1>
                         <p className="mb-5 text-center">
                             A simple single page app that contains search engines to find animes. This project fetch and search animes from MyAnimelist API. It build with PHP, Bootstrap, and JavaScript.
@@ -157,10 +151,10 @@ function Project() {
                 </Row>
 
                 <Row>
-                    <Col sm="6" className="putih p-5">
-                        <h1 className="text-center font-weight-bold">Simple SI Stasiun Kereta</h1>
+                    <Col sm="6" className="putih p-5 d-flex flex-column align-items-center justify-content-center">
+                        <h1 className="text-center font-weight-bold">Simple SIAKAD Web Apps</h1>
                         <p className="mb-5 text-center">
-                           Simple web apps that contains feature CRUD Stasiun, Kereta, Tiket, dan Penumpang. It build with PHP Native, Bootstrap, and JavaScript.
+                           Simple web apps that contains feature CRUD Mahasiswa. I created the same two systems with different frameworks, Codeigniter and Laravel. For this I will show the laravel one, while the codeigniter one, please look for it in my GitHub.
                         </p>
                         <div className="d-flex flex-row justify-content-center align-items-center">
                             <a href="https://stasiun-kereta-arthur.herokuapp.com/" className="btn btn-outline-primary rounded-pill mr-3">
@@ -174,18 +168,36 @@ function Project() {
                         </div>
                     </Col>
 
-                    <Col sm="6" className='biru p-5 d-flex justify-content-center align-items-center border-bottom border-secondary'>
-                        <img src="img/project/stasiun-kereta.png" alt="Stasiun Kereta" className="img-fluid rounded-lg" width="500"/>
+                    <Col sm="6" className='orange p-5 d-flex justify-content-center align-items-center border-bottom'>
+                        <img src="img/project/siakad.png" alt="Stasiun Kereta" className="img-fluid rounded-lg" width="500"/>
                     </Col>
                 </Row>
 
                 <Row>
-                    <Col sm="6" className='biru p-5 d-flex justify-content-center align-items-center'>
-                        <img src="img/project/labkommipa.png" alt="Labkom" className="img-fluid rounded-lg" width="500"/>
+                    <Col sm="6" className='orange p-5 d-flex justify-content-center align-items-center'>
+                        <img src="img/project/siakad.png" alt="Stasiun Kereta" className="img-fluid rounded-lg" width="500"/>
                     </Col>
 
+                    <Col sm="6" className="putih p-5 d-flex flex-column align-items-center justify-content-center">
+                        <h1 className="text-center font-weight-bold">Simple SIAKAD Web Apps</h1>
+                        <p className="mb-5 text-center">
+                           Simple web apps that contains feature CRUD Mahasiswa. I created the same two systems with different frameworks, Codeigniter and Laravel. For this I will show the laravel one, while the codeigniter one, please look for it in my GitHub.
+                        </p>
+                        <div className="d-flex flex-row justify-content-center align-items-center">
+                            <a href="https://stasiun-kereta-arthur.herokuapp.com/" className="btn btn-outline-primary rounded-pill mr-3">
+                                <i className="fas fa-globe-asia"/>
+                                {' '}Website
+                            </a>
+                            <a href="https://github.com/adamarthurf/SI_Stasiun_Kereta/" className="btn btn-outline-danger rounded-pill">
+                                <i className="fab fa-github"/>
+                                {' '}GitHub
+                            </a>
+                        </div>
+                    </Col>
+                </Row>
 
-                    <Col sm="6" className="putih p-5 border-bottom border-secondary">
+                <Row>
+                    <Col sm="6" className="putih p-5 d-flex flex-column align-items-center justify-content-center border-bottom">
                         <h1 className="text-center font-weight-bold">SI Labkom FMIPA UNS</h1>
                         <p className="mb-5 text-center">
                            Labkom FMIPA UNS official website and information system. It build with Laravel, Tailwind CSS, and React.js.
@@ -201,6 +213,11 @@ function Project() {
                             </a>
                         </div>
                     </Col>
+
+                    <Col sm="6" className='hijau p-5 d-flex justify-content-center align-items-center'>
+                        <img src="img/project/labkommipa.png" alt="Labkom" className="img-fluid rounded-lg" width="500"/>
+                    </Col>
+
                 </Row>
             </section>
             <section>
@@ -246,12 +263,12 @@ function Project() {
                                     </ListGroupItem>
                                 </ListGroup>
                             </section>
-                            <section className="border-secondary border mt-3 mb-3">
+                            <section className=" border mt-3 mb-3">
                             </section>
                             <section>
-                                <p>Hi I'm Arthur. Currently I am studying at Sebelas Maret University, Informatics Engineering Department. I'm only 18 years old and I live in Karanganyar. Experienced more than 2 years in the IT world especially on web development. With Laravel and React.js, I'm developing many web apps, I also like developing android apps with Kotlin and creating beautiful responsive UI with TailwindCSS. Interested on DevOps and Artificial Intelligence. </p>
+                                <p>Hi I'm Arthur. Currently I am studying at Sebelas Maret University, Informatics Engineering Department. I'm 18 years old and I live in Karanganyar. Experienced more than 2 years in the IT world especially on web development. With Laravel and React.js, I've developed many web apps, I also like developed android apps with Kotlin and created beautiful responsive UI with TailwindCSS. Interested on DevOps and Artificial Intelligence. </p>
                             </section>
-                            <section className="border-secondary border mt-3 mb-3">
+                            <section className=" border mt-3 mb-3">
                             </section>
                             <section>
                                 <p><span className="text-danger">Tech Stack:</span> PHP, JavaScript, Laravel, React, TailwindCSS</p>

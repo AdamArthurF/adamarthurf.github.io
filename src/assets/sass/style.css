@@ -68,6 +68,22 @@ main section.project .terang {
   min-height: 60vh;
   background-color: white;
 }
+main section.project .hijau {
+  min-height: 60vh;
+  background-color: #4db6ac;
+}
+main section.project .lime {
+  min-height: 60vh;
+  background-color: #d2ce56;
+}
+main section.project .coklat {
+  min-height: 60vh;
+  background-color: #d3b8ae;
+}
+main section.project .orange {
+  min-height: 60vh;
+  background-color: #ffbb93;
+}
 main section.project p {
   font-size: 1.6rem;
   color: #a0a0a0;
