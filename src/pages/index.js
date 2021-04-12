@@ -32,7 +32,7 @@ export function AppNavbar(){
     const toggle = () => setIsOpen(!isOpen);
     return (
         <React.Fragment>
-            <Navbar color="secondary" dark fixed="top" expand="md" className="text-center">
+            <Navbar color="primary" dark fixed="top" expand="md" className="text-center">
                 <Container className="themed-container" fluid={true}>
                     <NavbarBrand href="/" className="font-weight-bold">Adam</NavbarBrand>
                     <NavbarToggler onClick={toggle} />

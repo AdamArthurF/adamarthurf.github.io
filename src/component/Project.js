@@ -152,24 +152,24 @@ function Project() {
 
                 <Row>
                     <Col sm="6" className="putih p-5 d-flex flex-column align-items-center justify-content-center">
-                        <h1 className="text-center font-weight-bold">Simple SIAKAD Web Apps</h1>
+                        <h1 className="text-center font-weight-bold">Arthur Framework</h1>
                         <p className="mb-5 text-center">
-                           Simple web apps that contains feature CRUD Mahasiswa. I created the same two systems with different frameworks, Codeigniter and Laravel. For this I will show the laravel one, while the codeigniter one, please look for it in my GitHub.
+                            PHP Framework which is equivalent with excalibur sword
                         </p>
                         <div className="d-flex flex-row justify-content-center align-items-center">
-                            <a href="https://stasiun-kereta-arthur.herokuapp.com/" className="btn btn-outline-primary rounded-pill mr-3">
+                            <a href="#" className="btn btn-outline-primary rounded-pill mr-3">
                                 <i className="fas fa-globe-asia"/>
                                 {' '}Website
                             </a>
-                            <a href="https://github.com/adamarthurf/SI_Stasiun_Kereta/" className="btn btn-outline-danger rounded-pill">
+                            <a href="https://github.com/adamarthurf/arthurframework/" className="btn btn-outline-danger rounded-pill">
                                 <i className="fab fa-github"/>
                                 {' '}GitHub
                             </a>
                         </div>
                     </Col>
 
-                    <Col sm="6" className='orange p-5 d-flex justify-content-center align-items-center border-bottom'>
-                        <img src="img/project/siakad.png" alt="Stasiun Kereta" className="img-fluid rounded-lg" width="500"/>
+                    <Col sm="6" className='ungu p-5 d-flex justify-content-center align-items-center border-bottom'>
+                        <img src="img/project/arthur-framework.png" alt="Arthur Framework" className="img-fluid rounded-lg" width="500"/>
                     </Col>
                 </Row>
 
@@ -214,7 +214,7 @@ function Project() {
                         </div>
                     </Col>
 
-                    <Col sm="6" className='hijau p-5 d-flex justify-content-center align-items-center'>
+                    <Col sm="6" className='biru p-5 d-flex justify-content-center align-items-center'>
                         <img src="img/project/labkommipa.png" alt="Labkom" className="img-fluid rounded-lg" width="500"/>
                     </Col>
 
@@ -228,15 +228,15 @@ function Project() {
                             <div className="d-flex flex-column ">
                                 <a href="mailto:adam.faizal.af6@student.uns.ac.id" className="btn btn-outline-danger rounded-pill mt-2 mb-2">
                                     <i className="fas fa-envelope-square"/>
-                                    {' '}Email: adam.faizal.af6@student.uns.ac.id
+                                    {' '}<small><b>Email: </b>adam.faizal.af6@student.uns.ac.id</small>
                                 </a>
                                 <a href="https://www.linkedin.com/in/adamarthurf/" className="btn btn-outline-primary rounded-pill mb-2">
                                     <i className="fab fa-linkedin"/>
-                                    {' '}Linkedin: adamarthurf
+                                    {' '}<small><b>Linkedin: </b>adamarthurf</small>
                                 </a>
                                 <a href="https://github.com/adamarthurf" className="btn btn-outline-dark rounded-pill">
                                     <i className="fab fa-github"/>
-                                    {' '}GitHub: adamarthurf
+                                    {' '}<small><b>GitHub: </b>adamarthurf</small>
                                 </a>
                             </div>
 
