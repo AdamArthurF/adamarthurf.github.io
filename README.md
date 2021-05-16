@@ -15,6 +15,9 @@
   </a>
 </p>
 
+# My Website Portfolio
+Visit [https://adamarthurf.now.sh](https://adamarthurf.now.sh) to view my website portfolio. This website is no longer on github pages anymore
+
 ## Getting Started
 
 Visit [https://nextjs.org/learn](https://nextjs.org/learn) to get started with Next.js.

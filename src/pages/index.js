@@ -75,7 +75,7 @@ export class AppHeader extends Component {
                 {/*  Jumbotron  */}
                 <Jumbotron className="d-flex flex-column align-items-start justify-content-center p-5">
                     <h1 className="display-1 ml-5 pl-5 mb-0">{this.state.name}</h1>
-                    <span className="pl-5">Full-Stack Web Developer</span>
+                    <span className="pl-5">Web Developer</span>
                 </Jumbotron>
                 {/*  Akhir dari Jumbotron  */}
             </header>
