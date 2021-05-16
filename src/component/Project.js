@@ -223,7 +223,7 @@ function Project() {
             <section className="diri">
                 <Container fluid={true} className="pt-5 pb-5">
                     <Row>
-                        <Col sm={{size:3, offset:3}} >
+                        <Col sm={{size:3, offset:2}} >
                             <img src="img/about/foto_sma.jpg" alt="Foto Saya" className="img-fluid"/>
                             <div className="d-flex flex-column ">
                                 <a href="mailto:adam.faizal.af6@student.uns.ac.id" className="btn btn-outline-danger rounded-pill mt-2 mb-2">
@@ -234,14 +234,18 @@ function Project() {
                                     <i className="fab fa-linkedin"/>
                                     {' '}<small><b>Linkedin: </b>adamarthurf</small>
                                 </a>
-                                <a href="https://github.com/adamarthurf" className="btn btn-outline-dark rounded-pill">
+                                <a href="https://github.com/adamarthurf" className="btn btn-outline-dark rounded-pill mb-2">
                                     <i className="fab fa-github"/>
                                     {' '}<small><b>GitHub: </b>adamarthurf</small>
+                                </a>
+                                <a href="https://adamarthurf.github.io/cv" target="_blank" className="btn btn-outline-success rounded-pill mb-2">
+                                    <i className="fas fa-file"/>
+                                    {' '}<small>See my <b>CV</b></small>
                                 </a>
                             </div>
 
                         </Col>
-                        <Col sm="5">
+                        <Col sm="6">
                             <h1 className="font-weight-bold">Adam Arthur Faizal</h1>
                             <section>
                                 <ListGroup>
